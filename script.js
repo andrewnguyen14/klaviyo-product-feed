@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-  const jsonFilePath = '/product-feed.json';
+  const jsonFilePath = 'product-feed.json';
   fetch(jsonFilePath)
 	.then(response => response.json())
 	.then(jsonData => {
